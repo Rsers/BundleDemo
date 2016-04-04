@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17F5A5081CB2226600257E2D /* Example4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A5061CB2226600257E2D /* Example4ViewController.m */; };
+		17F5A5091CB2226600257E2D /* Example4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A5071CB2226600257E2D /* Example4ViewController.xib */; };
 		5C75243493EB1C7B3FD49819 /* Pods_BundleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C32C6ACB76EF73C9E2A554 /* Pods_BundleDemo.framework */; };
 		A9AD71641CACFF180034A131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AD71631CACFF180034A131 /* main.m */; };
 		A9AD71671CACFF180034A131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AD71661CACFF180034A131 /* AppDelegate.m */; };
@@ -46,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17F5A5051CB2226600257E2D /* Example4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example4ViewController.h; sourceTree = "<group>"; };
+		17F5A5061CB2226600257E2D /* Example4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example4ViewController.m; sourceTree = "<group>"; };
+		17F5A5071CB2226600257E2D /* Example4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example4ViewController.xib; sourceTree = "<group>"; };
 		33812ACB6699ACC577B3F8F2 /* Pods-BundleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BundleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BundleDemo/Pods-BundleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3D05341747ACB0ED5618962B /* Pods-BundleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BundleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BundleDemo/Pods-BundleDemo.release.xcconfig"; sourceTree = "<group>"; };
 		84C32C6ACB76EF73C9E2A554 /* Pods_BundleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BundleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +169,9 @@
 				A9AD71B31CAD210D0034A131 /* Example3ViewController.h */,
 				A9AD71B41CAD210D0034A131 /* Example3ViewController.m */,
 				A9AD71B51CAD210D0034A131 /* Example3ViewController.xib */,
+				17F5A5051CB2226600257E2D /* Example4ViewController.h */,
+				17F5A5061CB2226600257E2D /* Example4ViewController.m */,
+				17F5A5071CB2226600257E2D /* Example4ViewController.xib */,
 				A9AD716B1CACFF180034A131 /* Main.storyboard */,
 				A9AD716E1CACFF180034A131 /* Assets.xcassets */,
 				A9AD71701CACFF180034A131 /* LaunchScreen.storyboard */,
@@ -223,12 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9AD718C1CACFF190034A131 /* Build configuration list for PBXNativeTarget "BundleDemo" */;
 			buildPhases = (
-				5D85D52D2A5A8F66D6BE4DCE /* Check Pods Manifest.lock */,
+				5D85D52D2A5A8F66D6BE4DCE /* 📦 Check Pods Manifest.lock */,
 				A9AD715B1CACFF180034A131 /* Sources */,
 				A9AD715C1CACFF180034A131 /* Frameworks */,
 				A9AD715D1CACFF180034A131 /* Resources */,
-				8C546F5F564D2E4CDD78878C /* Embed Pods Frameworks */,
-				F22DD0593B855E13A991A53B /* Copy Pods Resources */,
+				8C546F5F564D2E4CDD78878C /* 📦 Embed Pods Frameworks */,
+				F22DD0593B855E13A991A53B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,6 +335,7 @@
 				A9AD71AB1CAD1E5C0034A131 /* images2 in Resources */,
 				A9AD71BD1CAD26A60034A131 /* image.bundle in Resources */,
 				A9AD71B71CAD210D0034A131 /* Example3ViewController.xib in Resources */,
+				17F5A5091CB2226600257E2D /* Example4ViewController.xib in Resources */,
 				A9AD71A21CAD0DB40034A131 /* Example1ViewController.xib in Resources */,
 				A9AD71A71CAD10520034A131 /* memory.png in Resources */,
 				A9AD716F1CACFF180034A131 /* Assets.xcassets in Resources */,
@@ -352,14 +361,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5D85D52D2A5A8F66D6BE4DCE /* Check Pods Manifest.lock */ = {
+		5D85D52D2A5A8F66D6BE4DCE /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,14 +376,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8C546F5F564D2E4CDD78878C /* Embed Pods Frameworks */ = {
+		8C546F5F564D2E4CDD78878C /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,14 +391,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BundleDemo/Pods-BundleDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F22DD0593B855E13A991A53B /* Copy Pods Resources */ = {
+		F22DD0593B855E13A991A53B /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AD71AF1CAD1E6B0034A131 /* Example2ViewController.m in Sources */,
+				17F5A5081CB2226600257E2D /* Example4ViewController.m in Sources */,
 				A9AD716A1CACFF180034A131 /* ViewController.m in Sources */,
 				A9AD71671CACFF180034A131 /* AppDelegate.m in Sources */,
 				A9AD71B61CAD210D0034A131 /* Example3ViewController.m in Sources */,
